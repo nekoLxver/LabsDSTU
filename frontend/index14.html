@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab14</title>
+</head>
+<body>
+    <p>Страница содержащая сценарий</p>
+    <script>
+
+        let a = 8, h = 10;
+        document.write(`Площадь прямоугольного треугольника равна ${a * h / 2}.`);
+
+
+        let circleRadius = prompt("Введите свой радиус: ", "");2
+        let circleArea = circleRadius > 0 ? `Площадь круга равна: ${Math.PI * Math.pow(circleRadius, 2)}` : 'Вы не определили радиус';
+        alert(circleArea)
+
+        let firstKatet = prompt("Введите первый катет: ", "");
+        let secondKatet = prompt("Введите второй катет: ", "");
+        let gipo = (firstKatet > 0 && secondKatet > 0) ? `Гипотенуза равна: ${(firstKatet ** 2 + secondKatet ** 2) ** 0.5}` : `Не могу посчитать гипотенузу...`;
+        alert(gipo);
+
+    </script>
+    <p>Конец формирования траницы содержащей сценарий</p>
+</html>

@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body {
+ background-color:rgb(33, 31, 33);
+}
+
+header {
+    padding-top: 15px;
+    background-color: rgb(33, 31, 33);
+    min-height: 70px;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__heading {
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.header__heading a {
+    text-decoration: none;
+    color: rgb(178, 152, 21);
+}
+
+.header__input {
+    padding-left: 10px;
+    padding-right: 10px;
+    min-height: 35px;
+    border-radius: 4px;
+    border: none;
+}
+
+.submit {
+    background-color: rgb(40, 102, 140);
+    color: azure;
+}
+
+main {
+    background-color: rgb(177, 177, 154);
+    padding-top: 105px;
+    min-height: 350px;
+}
+
+.main__heading {
+    margin-bottom: 10px;
+}
+
+.main__paragraph {
+    margin-bottom: 10;
+}
+
+.cols-section {
+    background-color: rgb(184, 183, 159);
+    min-height: 500px;
+    padding-top: 50px;
+}
+
+.cols-section__heading {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.cols-section__paragraph {
+    text-align: center;
+}
+
+.section__button {
+    display: block;
+    margin: 0 auto;
+}
